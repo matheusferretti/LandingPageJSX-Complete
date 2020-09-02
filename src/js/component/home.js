@@ -11,12 +11,7 @@ export function Home() {
 	return (
 		<div>
 			<Navbar />
-
 			<Jumbotron />
-
-			<Card />
-			<Card />
-			<Card />
 			<Card />
 		</div>
 	);
