@@ -2,9 +2,14 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<div className="card text-center text-white bg-dark">
-			<div className="card-footer">Copyright Your Website 2020</div>
-		</div>
+		<footer className="page-footer font-small text-white bg-dark">
+			<div className="container">
+				<div className="footer-copyright text-center py-3">
+					© 2020 Copyright at your website
+					<a href="" />
+				</div>
+			</div>
+		</footer>
 	);
 };
 
